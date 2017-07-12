@@ -1,0 +1,18 @@
+
+**** Build of configuration Debug for project transciever ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../char_transciever.c'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --include_path="C:/Users/dell/Desktop/DSP LAB/transciever" --include_path="C:/Program Files (x86)/Texas Instruments/ccsv4/emulation/boards/usbstk5515_v1/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --define=c5515 --display_error_number --diag_warning=225 --ptrdiff_size=32 --printf_support=full --preproc_with_compile --preproc_dependency="char_transciever.d"  "../char_transciever.c"
+"../char_transciever.c", line 638: warning #112-D: statement is unreachable
+'Finished building: ../char_transciever.c'
+' '
+'Building target: transciever.out'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --define=c5515 --display_error_number --diag_warning=225 --ptrdiff_size=32 --printf_support=full -z -m"transciever.map" --stack_size=0x400 --heap_size=0x400 -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/lib" -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --reread_libs --display_error_number --warn_sections --xml_link_info="transciever_linkInfo.xml" --rom_model --sys_stacksize=0x400 -o "transciever.out" "./char_transciever.obj" "../C5515.cmd"  -l"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/lib/rts55x.lib" -l"C:/Program Files (x86)/Texas Instruments/ccsv4/emulation/boards/usbstk5515_v1/lib/usbstk5515bsl.lib" -lrts55x.lib 
+<Linking>
+'Finished building target: transciever.out'
+' '
+
+**** Build Finished ****
